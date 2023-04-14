@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url(../img/agro1.jpg) no-repeat center top;
+    background-size: cover;
+}
+
+.titulo {
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 120px;
+    color: chartreuse;
+    -webkit-text-stroke: 1px black;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.loguin {
+    width: 420px;
+    height: 520px;
+    background-color: #ffff;
+    opacity: .95;
+    color: chartreuse;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+    border-radius: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.loguin h1 {
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bolder;
+
+}
+
+.loguin input {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.loguin input[type="text"],
+.loguin input[type="password"] {
+    border: none;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+}
+
+.loguin input[type="submit"] {
+    border: none;
+    outline: none;
+    height: 40px;
+    background-color: chartreuse;
+    color: black;
+    font-size: 20px;
+    border-radius: 20px;
+}
+
+.loguin input[type="submit"]:hover {
+    color: rgb(255, 255, 255);
+}
+
+.loguin a {
+    text-decoration: none;
+    font-size: 17px;
+    line-height: 16px;
+    color: rgb(0, 0, 0);
+}
+
+.loguin a:hover {
+    color: chartreuse;
+}
