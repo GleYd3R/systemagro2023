@@ -20,12 +20,9 @@ html {
     overflow-x: hidden;
 }
 
-
 .header {
-    background: #00df1e;
     width: 100%;
-    height: auto;
-    box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.5);
+    height: auto;    
 }
 
 .headerLogo:hover {
@@ -33,10 +30,16 @@ html {
 }
 
 .opcionesNAV {
+    position: fixed;
+    top: 0px;
+    text-align: center;
+    width: 100%;
+    height: auto;
     justify-content: space-evenly;
     display: flex;
     align-items: center;
     height: 50px;
+    background-color: chartreuse;
 }
 
 input[type="text"] {
@@ -45,6 +48,7 @@ input[type="text"] {
     border-radius: 10px;
     width: 250px;
     font-size: 16px;
+    box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.5);
 }
 
 button[type="submit"] {
@@ -53,6 +57,7 @@ button[type="submit"] {
     border-radius: 10px;
     width: 100px;
     font-size: 16px;
+    box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.5);
 }
 
 button:hover {
@@ -73,18 +78,22 @@ a:hover {
 }
 
 .opcionesNAV2 {
+    position: fixed;
+    width: 100%;
+    top: 50px;
     justify-content: space-around;
-
+    background-color: rgb(11, 238, 49);
     display: flex;
     align-items: center;
     height: 50px;
+    box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.103);
 }
 
 /* estilos carrusel de imagenes */
 .slider-frame {
     width: 1380px;
-    height: auto;
-    margin: 0px auto 0;
+    height: auto;    
+    margin: 100px auto 0;
     overflow: hidden;
 }
 
@@ -92,7 +101,6 @@ a:hover {
     display: flex;
     padding: 0;
     width: 400%;
-
     animation: slide 20s infinite alternate ease-in-out;
 }
 
@@ -204,4 +212,12 @@ a:hover {
 
 .buttons a {
     border: .1rem solid #000000;
+}
+/* estilos footer */
+footer {    
+    text-align: center;
+    width: 100%;
+    height: auto;
+    background-color: rgb(11, 238, 49);
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.103);
 }
