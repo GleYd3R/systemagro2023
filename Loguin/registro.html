@@ -15,29 +15,29 @@
     </div>
     <div class="registro">
         <h1>Registro</h1>
-        <form name="formulario" id="formulario" method="get" action="loguin.html">
-            <div>Nombres</div>
-            <input type="text" required>
-            <div>Apellidos</div>
-            <input type="text" required>
-            <div>Numero de documento</div>
-            <input type="text" required>
-            <div>Telefono</div>
-            <input type="tel" required>
-            <div>Direccion</div>
-            <input type="text" required>
-            <div>Fecha de nacimineto</div>
-            <input type="date" required>
-            <div>Correo Electronico</div>
-            <input type="email" required>
-            <div>Constraseña</div>
-            <input type="password" required>
-            <div>Repetir constraseña</div>
-            <input type="password" required>
+        <form name="formulario" id="formulario" method="post" action="php/registro.php">
+            Nombres
+            <input type="text" name="nombres">
+            Apellidos
+            <input type="text" name="apellidos">
+            Numero de documento
+            <input type="text" name="documento">
+            Telefono
+            <input type="tel" name="telefono">
+            Direccion
+            <input type="text" name="direccion">
+            Fecha de nacimineto
+            <input type="date" name="fechanacimiento">
+            Correo Electronico
+            <input type="email" name="email">
+            Constraseña
+            <input type="password" name="clave">
+            Repetir constraseña
+            <input type="password" >
             <div class="terminos">
-                <label><input type="checkbox" /><a href="#"> Aceptar terminos y condiciones</a></label><br><br>
+                <label><input type="checkbox" required /><a href="#"> Aceptar terminos y condiciones</a></label><br><br>
             </div>
-            <input type="submit" value="Crear cuenta">
+            <input type="submit" value="Crear cuenta" name="registrar">
         </form>
     </div>
 </body>

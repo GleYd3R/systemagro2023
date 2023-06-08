@@ -16,10 +16,10 @@
     </div>
     <div class="loguin">
         <h1>Iniciar Session</h1>
-        <form>
-            <input type="text" placeholder="Correo electronico">
-            <input type="password" placeholder="Contraseña">
-            <input type="submit" value="Iniciar session">
+        <form action="php/loguin.php" method="post">
+            <input type="text" placeholder="Correo electronico" name="correo">
+            <input type="password" placeholder="Contraseña" name="clave">
+            <input type="submit" value="Iniciar session" name="loguin">
             <a href="registro.html">Crear una cuenta</a><br><br>
             <a href="recuperacion.html">Olvide mi contraseña</a>
         </form>
